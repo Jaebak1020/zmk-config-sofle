@@ -125,11 +125,11 @@ layers:
   - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PLAY PAUSE
-  - PREVIOUS
-  - $$mdi:skip-next$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
