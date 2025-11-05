@@ -153,9 +153,9 @@
             bindings = <
 &kp CARET      &kp F1                           &kp F2                               &kp F3                        &kp F4       &kp F5            &trans  &kp F6                 &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
 &kp AMPERSAND  &as LEFT_BRACKET LEFT_BRACE      &as RIGHT_BRACKET RIGHT_BRACE        &as MINUS UNDERSCORE          &kp PLUS     &kp ASTERISK      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans   &kp F12
-&kp LCTRL      &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS                &kp HASH                      &as PLUS EQUAL &kp EXCLAMATION &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&kp LALT       &trans                           &kp SINGLE_QUOTE                    &as NON_US_BACKSLASH PIPE              &kp QUESTION   &kp SLASH  &trans  &kp C_BRIGHTNESS_AUTO  &trans       &trans          &trans           &trans  &to 2
-&trans         &kp DOUBLE_QUOTES                &as SINGLE_QUOTE DOUBLE_QUOTES        &kp PAGE_DOWN                 &kp PAGE_UP    &trans             &trans  &kp C_PLAY_PAUSE       &kp C_PREVIOUS  &kp C_NEXT   &kp C_VOLUME_DOWN    &kp C_VOLUME_UP
+&kp LCTRL      &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS                &kp HASH                      &as PLUS EQUAL &kp EXCLAMATION &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&kp LALT       &trans                           &kp SINGLE_QUOTE                    &as NON_US_BACKSLASH PIPE      &kp QUESTION   &kp SLASH       &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans   &to 2
+&trans         &kp DOUBLE_QUOTES                &as SINGLE_QUOTE DOUBLE_QUOTES        &kp PAGE_DOWN                &kp PAGE_UP    &trans          &trans  &trans        &trans   &trans    &trans    &trans 
             >;
 
             label = "Navi";
