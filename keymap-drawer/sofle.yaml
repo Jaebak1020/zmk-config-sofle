@@ -96,7 +96,7 @@ layers:
   - (
   - )
   - '#'
-  - {t: '=', h: +, s: +}
+  - {t: +, h: '='}
   - '!'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
@@ -117,7 +117,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Symbol, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '"'
   - {t: '"', h: ''''}
