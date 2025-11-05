@@ -142,7 +142,7 @@
 &kp TAB          &kp Q           &kp W           &kp F               &kp P             &kp B           &kp DOWN_ARROW   &kp J         &kp L              &kp U                &kp Y                    &as QUESTION SLASH   &as PLUS EQUAL
 &kp LCTRL        &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL R  &hm LEFT_SHIFT T  &kp G           &kp LEFT_ARROW   &kp M         &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I          &kp O                &as DOUBLE_QUOTES SQT
 &kp LALT         &kp Z           &kp X           &kp C               &kp D             &kp V           &kp RIGHT_ARROW  &kp K         &kp H              &as SEMICOLON COLON  &as LESS_THAN COMMA      &as GREATER_THAN PERIOD   &hm RIGHT_GUI ENTER
-&to 5            &kp HOME        &kp LG          &kp LEFT_SHIFT      &ltq 2 SPACE      &kp BACKSPACE   &to 6            &ltq 2 SPACE  &ltq 3 ENTER       &ltq 1 DELETE        &kp RALT                 &kp RCTRL
+&to 5            &kp HOME        &kp LEFT_GUI    &kp LEFT_SHIFT      &ltq 2 SPACE      &kp BACKSPACE   &to 6            &ltq 2 SPACE  &ltq 3 ENTER       &ltq 1 DELETE        &kp RALT                 &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
