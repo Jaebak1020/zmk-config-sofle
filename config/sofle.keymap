@@ -153,7 +153,7 @@
             bindings = <
 &to 2      &kp F1                           &kp F2                               &kp F3                        &kp F4       &kp F5            &trans  &kp F6                 &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
 &kp AMPERSAND  &as LEFT_BRACKET LEFT_BRACE      &as RIGHT_BRACKET RIGHT_BRACE        &as MINUS UNDERSCORE          &kp PLUS     &kp ASTERISK      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans   &kp F12
-&kp LCTRL      &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS                &kp HASH                      &as EQUAL PLUS &kp EXCLAMATION &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&to 0      &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS                &kp HASH                      &as EQUAL PLUS &kp EXCLAMATION &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
 &kp LALT       &trans                           &kp SINGLE_QUOTE                     &as BACKSLASH PIPE            &kp QUESTION   &kp SLASH       &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans   &trans
 &trans         &kp DOUBLE_QUOTES                &as SINGLE_QUOTE DOUBLE_QUOTES       &kp PAGE_DOWN                 &kp PAGE_UP    &trans          &trans  &trans                 &trans          &trans          &trans           &trans 
             >;
