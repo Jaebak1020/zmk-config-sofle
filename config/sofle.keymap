@@ -140,9 +140,9 @@
             bindings = <
 &kp ESCAPE       &kp N1          &kp N2          &kp N3              &kp N4            &kp N5          &kp UP_ARROW     &kp N6        &kp N7             &kp N8               &kp N9                   &kp N0               &kp ENTER
 &kp TAB          &kp Q           &kp W           &kp F               &kp P             &kp B           &kp DOWN_ARROW   &kp J         &kp L              &kp U                &kp Y                    &as QUESTION SLASH   &as PLUS EQUAL
-&kp LCTRL        &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL R  &hm LEFT_SHIFT T  &kp G           &kp LEFT_ARROW   &kp M         &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I          &kp O                &as DOUBLE_QUOTES SQT
+&kp CAPSLOCK        &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL R  &hm LEFT_SHIFT T  &kp G           &kp LEFT_ARROW   &kp M         &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I          &kp O                &as DOUBLE_QUOTES SQT
 &kp LALT         &kp Z           &kp X           &kp C               &kp D             &kp V           &kp RIGHT_ARROW  &kp K         &kp H              &as SEMICOLON COLON  &as LESS_THAN COMMA      &as GREATER_THAN PERIOD   &hm RIGHT_GUI ENTER
-&to 5            &kp HOME        &kp LEFT_GUI    &kp LEFT_SHIFT      &ltq 1 SPACE      &kp BACKSPACE   &to 6            &ltq 2 SPACE  &ltq 3 ENTER       &ltq 1 DELETE        &kp RALT                 &kp RCTRL
+&to 5            &kp LCTRL        &kp LEFT_GUI    &kp LEFT_SHIFT      &ltq 1 SPACE      &kp BACKSPACE   &to 6            &ltq 2 SPACE  &ltq 3 ENTER       &ltq 1 DELETE        &kp RALT                 &to 2
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -152,7 +152,7 @@
         Navi {
             bindings = <
 &to 2      &kp F1                           &kp F2                               &kp F3                        &kp F4       &kp F5            &trans  &kp F6                 &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
-&kp AMPERSAND  &as LEFT_BRACKET LEFT_BRACE      &as RIGHT_BRACKET RIGHT_BRACE        &as MINUS UNDERSCORE          &kp PLUS     &kp ASTERISK      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans   &kp F12
+&as TILDE GRAVE  &as LEFT_BRACKET LEFT_BRACE      &as RIGHT_BRACKET RIGHT_BRACE        &as MINUS UNDERSCORE          &kp PLUS     &kp ASTERISK      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans           &trans   &kp F12
 &to 0      &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS                &kp HASH                      &as EQUAL PLUS &kp EXCLAMATION &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
 &kp LEFT_CONTROL       &trans                           &kp SINGLE_QUOTE                     &as BACKSLASH PIPE            &kp QUESTION   &kp SLASH       &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans           &trans   &trans
 &trans         &kp DOUBLE_QUOTES                &as SINGLE_QUOTE DOUBLE_QUOTES       &kp PAGE_DOWN                 &kp PAGE_UP    &trans          &trans  &trans                 &trans          &trans          &trans           &trans 
@@ -165,10 +165,10 @@
         Symbol {
             bindings = <
 &kp ESCAPE       &kp N1          &kp N2          &kp N3              &kp N4            &kp N5          &kp UP_ARROW     &kp N6        &kp N7             &kp N8               &kp N9                   &kp N0               &as PIPE BACKSLASH
-&as TILDE GRAVE  &kp Q           &kp W           &kp E               &kp R             &kp T           &kp DOWN_ARROW   &kp Y         &kp U              &kp I                &kp O                    &kp P                &as PLUS EQUAL
+&kp TAB  &kp Q           &kp W           &kp E               &kp R             &kp T           &kp DOWN_ARROW   &kp Y         &kp U              &kp I                &kp O                    &kp P                &as PLUS EQUAL
 &kp CAPSLOCK     &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G           &kp LEFT_ARROW   &kp H         &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L          &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
-&kp LSHFT        &kp Z           &kp X           &kp C               &kp V             &kp B           &kp RIGHT_ARROW  &kp N         &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &hm RIGHT_GUI ENTER
-&to 5            &kp LCTRL       &kp LALT        &ltq 1 BACKSPACE    &ltq 3 TAB        &ltq 2 SPACE    &to 6            &ltq 2 SPACE  &ltq 3 ENTER       &to 0       &kp RALT                 &kp RCTRL
+&kp LALT        &kp Z           &kp X           &kp C               &kp V             &kp B           &kp RIGHT_ARROW  &kp N         &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &hm RIGHT_GUI ENTER
+&to 5            &kp LCTRL       &kp LEFT_GUI       &kp LEFT_SHIFT    &ltq 1 SPACE        &kp BACKSPACE    &to 6            &ltq 2 SPACE  &ltq 3 ENTER       &ltq 1 DELETE      &kp RALT                 &to 0
 
 
             >;
