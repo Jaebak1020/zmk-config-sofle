@@ -57,7 +57,7 @@ layers:
   - HOME
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
+  - {t: '$$mdi:keyboard-space$$', h: Navi}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Mouse, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
@@ -66,7 +66,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   Navi:
-  - ^
+  - {t: Symbol, h: toggle}
   - F1
   - F2
   - F3
@@ -122,7 +122,7 @@ layers:
   - '"'
   - {t: '"', h: ''''}
   - PgDn
-  - PgUp
+  - {t: PgUp, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
