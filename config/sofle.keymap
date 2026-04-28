@@ -151,11 +151,11 @@
 
         Navi {
             bindings = <
-&as TILDE GRAVE      &kp F1                &kp F2             &kp F3             &kp F4       &kp F5   &trans  &kp F6           &kp F7          &kp F8           &kp F9             &kp F10          &kp F11
-&trans               &trans                &kp UP_ARROW       &trans             &kp PLUS     &trans   &trans  &kp ASTERISK     &kp PIPE        &kp LEFT_BRACKET &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp F12
-&trans               &kp LEFT_ARROW        &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp PSCRN    &trans   &trans  &as PLUS EQUAL   &kp LESS_THAN   &as LS(LBKT)     &as LS(RBKT)       &kp LESS_THAN    &as LS(MINUS)
-&trans               &trans                &kp SINGLE_QUOTE   &as BACKSLASH PIPE &kp QUESTION &trans   &trans  &trans           &kp AMPERSAND   &kp LEFT_BRACE   &kp RIGHT_BRACE    &kp PLUS         &kp MINUS
-&trans               &trans                &trans             &trans             &trans       &trans   &trans  &kp UNDERSCORE   &trans          &trans           &trans             &trans
+&as TILDE GRAVE      &kp F1                &kp F2             &kp F3             &kp F4       &kp F5   &trans  &kp F6           &kp F7          &kp F8                         &kp F9                              &kp F10          &kp F11
+&trans               &trans                &kp UP_ARROW       &trans             &kp PLUS     &trans   &trans  &kp ASTERISK     &kp PIPE        &kp LEFT_BRACKET               &kp RIGHT_BRACKET                   &kp EXCLAMATION  &kp F12
+&trans               &kp LEFT_ARROW        &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp PSCRN    &trans   &trans  &as PLUS EQUAL   &kp LESS_THAN   &as LEFT_BRACKET LEFT_BRACE    &as RIGHT_BRACKET RIGHT_BRACE       &kp LESS_THAN    &as MINUS UNDERSCORE
+&trans               &trans                &kp SINGLE_QUOTE   &as BACKSLASH PIPE &kp QUESTION &trans   &trans  &trans           &kp AMPERSAND   &kp LEFT_BRACE                 &kp RIGHT_BRACE                     &kp PLUS         &kp MINUS
+&trans               &trans                &trans             &trans             &trans       &trans   &trans  &kp UNDERSCORE   &trans          &trans                         &trans                              &trans
             >;
 
             label = "Navi";
@@ -165,9 +165,9 @@
         Symbol {
             bindings = <
 &trans  &trans  &trans       &trans             &trans        &trans           &kp UP_ARROW     &trans         &trans       &trans      &trans       &trans     &trans
-&trans  &trans  &trans       &kp PAGE_UP        &trans        &trans           &kp DOWN_ARROW   &trans         &as LS(N7)   &as LS(N8)  &as LS(N9)   &trans     &trans
-&trans  &trans  &kp HOME     &kp PAGE_DOWN      &kp END       &trans           &kp LEFT_ARROW   &kp PRCNT      &as LS(N4)   &as LS(N5)  &as LS(N6)   &trans     &trans
-&trans  &trans  &trans       &trans             &trans        &trans           &kp RIGHT_ARROW  &trans         &as LS(N1)   &as LS(N2)  &as LS(N3)   &trans     &trans
+&trans  &trans  &trans       &kp PAGE_UP        &trans        &trans           &kp DOWN_ARROW   &trans         &kp N7       &kp N8      &kp N9   &trans     &trans
+&trans  &trans  &kp HOME     &kp PAGE_DOWN      &kp END       &trans           &kp LEFT_ARROW   &kp PRCNT      &kp N4       &kp N5      &kp N6   &trans     &trans
+&trans  &trans  &trans       &trans             &trans        &trans           &kp RIGHT_ARROW  &trans         &kp N1       &kp N2      &kp N3   &trans     &trans
 &to 5   &trans  &trans       &trans             &trans        &trans           &to 6            &trans         &trans       &trans      &trans       &to 0     
 
 
